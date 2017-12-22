@@ -53,10 +53,7 @@
             catch (ArgumentOutOfRangeException)
             {
                 _result = _numberOfMoves;
-                return;
             }
-
-            Execute();
         }
 
         private void UpdatePositionAndMoves()
